@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC16814D239123B600E4ECA1 /* JNR_Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC16814C239123B500E4ECA1 /* JNR_Font.ttf */; };
+		FEB8A3271FB73213008D9928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB8A3261FB73213008D9928 /* AppDelegate.m */; };
+		FEB8A32A1FB73213008D9928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB8A3291FB73213008D9928 /* ViewController.m */; };
+		FEB8A32C1FB73213008D9928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB8A32B1FB73213008D9928 /* Assets.xcassets */; };
+		FEB8A32F1FB73213008D9928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB8A32D1FB73213008D9928 /* Main.storyboard */; };
+		FEB8A3321FB73213008D9928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB8A3311FB73213008D9928 /* main.m */; };
+		FEB8A33B1FB73A8A008D9928 /* Ekimeow.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB8A33A1FB73A8A008D9928 /* Ekimeow.m */; };
+		FEECEDEB1FB8B13500C7CF0E /* EkiMeihyoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEECEDEA1FB8B13500C7CF0E /* EkiMeihyoPreviewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC16814C239123B500E4ECA1 /* JNR_Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JNR_Font.ttf; sourceTree = "<group>"; };
+		FEB8A3221FB73213008D9928 /* 站名牌產生器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "站名牌產生器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB8A3251FB73213008D9928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEB8A3261FB73213008D9928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEB8A3281FB73213008D9928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEB8A3291FB73213008D9928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEB8A32B1FB73213008D9928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB8A32E1FB73213008D9928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEB8A3301FB73213008D9928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB8A3311FB73213008D9928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEB8A3391FB73A8A008D9928 /* Ekimeow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ekimeow.h; sourceTree = "<group>"; };
+		FEB8A33A1FB73A8A008D9928 /* Ekimeow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ekimeow.m; sourceTree = "<group>"; };
+		FEECEDE91FB8B13500C7CF0E /* EkiMeihyoPreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EkiMeihyoPreviewController.h; sourceTree = "<group>"; };
+		FEECEDEA1FB8B13500C7CF0E /* EkiMeihyoPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkiMeihyoPreviewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB8A31F1FB73212008D9928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB8A3191FB73212008D9928 = {
+			isa = PBXGroup;
+			children = (
+				FEB8A3241FB73213008D9928 /* eki */,
+				FEB8A3231FB73213008D9928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB8A3231FB73213008D9928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8A3221FB73213008D9928 /* 站名牌產生器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB8A3241FB73213008D9928 /* eki */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8A3251FB73213008D9928 /* AppDelegate.h */,
+				FEB8A3261FB73213008D9928 /* AppDelegate.m */,
+				FEECEDE91FB8B13500C7CF0E /* EkiMeihyoPreviewController.h */,
+				FEECEDEA1FB8B13500C7CF0E /* EkiMeihyoPreviewController.m */,
+				FEB8A3281FB73213008D9928 /* ViewController.h */,
+				FEB8A3291FB73213008D9928 /* ViewController.m */,
+				FEB8A3391FB73A8A008D9928 /* Ekimeow.h */,
+				FEB8A33A1FB73A8A008D9928 /* Ekimeow.m */,
+				FEB8A32B1FB73213008D9928 /* Assets.xcassets */,
+				FEB8A32D1FB73213008D9928 /* Main.storyboard */,
+				FEB8A3301FB73213008D9928 /* Info.plist */,
+				FEB8A3311FB73213008D9928 /* main.m */,
+				CC16814C239123B500E4ECA1 /* JNR_Font.ttf */,
+			);
+			path = eki;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB8A3211FB73212008D9928 /* 站名牌產生器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB8A3361FB73213008D9928 /* Build configuration list for PBXNativeTarget "站名牌產生器" */;
+			buildPhases = (
+				FEB8A31E1FB73212008D9928 /* Sources */,
+				FEB8A31F1FB73212008D9928 /* Frameworks */,
+				FEB8A3201FB73212008D9928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "站名牌產生器";
+			productName = eki;
+			productReference = FEB8A3221FB73213008D9928 /* 站名牌產生器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB8A31A1FB73212008D9928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Cocoa Oikawa";
+				TargetAttributes = {
+					FEB8A3211FB73212008D9928 = {
+						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FEB8A31D1FB73212008D9928 /* Build configuration list for PBXProject "站名牌產生器" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB8A3191FB73212008D9928;
+			productRefGroup = FEB8A3231FB73213008D9928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB8A3211FB73212008D9928 /* 站名牌產生器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB8A3201FB73212008D9928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC16814D239123B600E4ECA1 /* JNR_Font.ttf in Resources */,
+				FEB8A32C1FB73213008D9928 /* Assets.xcassets in Resources */,
+				FEB8A32F1FB73213008D9928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB8A31E1FB73212008D9928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB8A32A1FB73213008D9928 /* ViewController.m in Sources */,
+				FEECEDEB1FB8B13500C7CF0E /* EkiMeihyoPreviewController.m in Sources */,
+				FEB8A33B1FB73A8A008D9928 /* Ekimeow.m in Sources */,
+				FEB8A3321FB73213008D9928 /* main.m in Sources */,
+				FEB8A3271FB73213008D9928 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEB8A32D1FB73213008D9928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB8A32E1FB73213008D9928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB8A3341FB73213008D9928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEB8A3351FB73213008D9928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEB8A3371FB73213008D9928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FT787279D2;
+				INFOPLIST_FILE = eki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.cocoaneko.eki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEB8A3381FB73213008D9928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FT787279D2;
+				INFOPLIST_FILE = eki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.cocoaneko.eki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB8A31D1FB73212008D9928 /* Build configuration list for PBXProject "站名牌產生器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB8A3341FB73213008D9928 /* Debug */,
+				FEB8A3351FB73213008D9928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB8A3361FB73213008D9928 /* Build configuration list for PBXNativeTarget "站名牌產生器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB8A3371FB73213008D9928 /* Debug */,
+				FEB8A3381FB73213008D9928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB8A31A1FB73212008D9928 /* Project object */;
+}
